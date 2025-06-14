@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="servidorpublico" />
         <module name="mensagem" />
         <module name="mensagemWeb" />
       </profile>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mensagem" options="-parameters" />
       <module name="mensagemWeb" options="-parameters" />
+      <module name="servidorpublico" options="-parameters" />
     </option>
   </component>
 </project>
