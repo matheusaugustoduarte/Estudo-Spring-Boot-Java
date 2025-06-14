@@ -6,17 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mensagemWeb" />
+        <module name="servidorpublicoWeb" />
         <module name="servidorpublico" />
         <module name="mensagem" />
-        <module name="mensagemWeb" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="servidorpublico (1)" target="24" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mensagem" options="-parameters" />
       <module name="mensagemWeb" options="-parameters" />
       <module name="servidorpublico" options="-parameters" />
+      <module name="servidorpublico (1)" options="-parameters" />
+      <module name="servidorpublicoWeb" options="-parameters" />
     </option>
   </component>
 </project>
